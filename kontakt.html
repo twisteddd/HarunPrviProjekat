@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktiraj Me - Harun Sudic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="display: flex; flex-direction: column; min-height: 100vh; margin: 0;">
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="stanista.html" class="active">Staništa</a></li>
+            <li><a href="zanimljivosti.html">Zanimljivosti</a></li>
+            <li><a href="kontakt.html">Kontaktiraj Me</a></li>
+        </ul>
+    </nav>
+
+    <main style="flex: 1;">
+        <header>
+            <h1>Kontaktiraj Me</h1>
+            <p>Imate pitanje ili želite više informacija o životinjama? Kontaktirajte me putem forme ispod.</p>
+        </header>
+
+        <section class="kontakt-forma">
+            <form>
+                <label for="ime">Ime:</label>
+                <input type="text" id="ime" name="ime" placeholder="Unesite vaše ime">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Unesite vašu email adresu">
+                <label for="poruka">Poruka:</label>
+                <textarea id="poruka" name="poruka" placeholder="Vaša poruka..."></textarea>
+                <button type="submit">Pošalji</button>
+            </form>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 15px; background-color: #4caf50; color: #fff; width: 100%; font-family: 'Roboto', sans-serif;">
+        <p>&copy; 2024 Harun Sudic - Svijet Životinja</p>
+    </footer>
+
+</body>
+</html>
